@@ -168,3 +168,4 @@ class AdaptiveImputerEstimator(BaseEstimator):
     
     def predict(self, X):
         return self.model.predict(X)
+    print 'hi'
